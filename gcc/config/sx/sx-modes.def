@@ -1,0 +1,19 @@
+/*
+RESET_FLOAT_FORMAT (SF, ieee_single_format);
+RESET_FLOAT_FORMAT (DF, ieee_double_format);
+*/
+
+/* TFmode: IEEE quad floating point (software).  */
+/*FLOAT_MODE (TF, 16, sx_quad_format);*/
+FLOAT_MODE (TF, 16, ieee_quad_format);
+
+/* distinct CC modes for:
+   - signed comparison (distinct SI/DI variant)
+   - unsigned comparison (only DI variant)
+   - float comparison (distinct SF/DF variant)
+*/
+CC_MODE(CCSSI);
+CC_MODE(CCSDI);
+CC_MODE(CCUDI);
+CC_MODE(CCFSF);
+CC_MODE(CCFDF);

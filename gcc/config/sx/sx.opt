@@ -1,0 +1,63 @@
+; Options for the SX port of the compiler.
+
+; Copyright (C) 2005, 2007 Free Software Foundation, Inc.
+;
+; This file is part of GCC.
+;
+; GCC is free software; you can redistribute it and/or modify it under
+; the terms of the GNU General Public License as published by the Free
+; Software Foundation; either version 3, or (at your option) any later
+; version.
+;
+; GCC is distributed in the hope that it will be useful, but WITHOUT ANY
+; WARRANTY; without even the implied warranty of MERCHANTABILITY or
+; FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
+; for more details.
+;
+; You should have received a copy of the GNU General Public License
+; along with GCC; see the file COPYING3.  If not see
+; <http://www.gnu.org/licenses/>.
+
+msx6
+Target RejectNegative Report Mask(PROCESSOR_SX6)
+Generate code for an SX6
+
+msx8
+Target RejectNegative Report Mask(PROCESSOR_SX8)
+Generate code for an SX8
+
+msmall
+Target RejectNegative Report Mask(SMALLPAGE)
+Use small pages format (32kB)
+
+mlarge
+Target RejectNegative Report Mask(LARGEPAGE)
+Use large pages format (1MB/4MB)
+
+mhuge
+Target RejectNegative Report Mask(HUGEPAGE)
+Use huge pages format (16MB/64MB)
+
+mstack-check
+Target Report Var(sx_stack_check, 1) Init(1)
+Emit stack checking code in function prologues (default).
+
+mfloat
+Target RejectNegative Report Joined UInteger
+-mfloatN	      Generate code for floating point type N ([0|1|2]).
+
+mmemlayout=
+Target RejectNegative Report Joined
+-mmemlayout=LAYOUT    Generate executables for memory layout LAYOUT ([32G|512G]).
+
+mssize=
+Target RejectNegative Report Joined UInteger
+-mssize=SIZE	      Generate executables with stack size SIZE.
+
+msoft-float
+Target Report RejectNegative Mask(SOFT_FLOAT)
+Prevent the use of all hardware floating-point instructions. Use soft-fp library instead.
+
+mstrict-float
+Target Report RejectNegative Mask(STRICT_FLOAT)
+This is a hybrid mode between msoft-float and pure hardware mode. Here, the SX's instructions that don't return the same result that gcc expects are replaced with soft-fp routines.

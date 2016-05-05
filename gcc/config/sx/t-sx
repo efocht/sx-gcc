@@ -1,0 +1,12 @@
+CC=gcc
+
+#LIBGCC1 = libgcc1.null
+#CROSS_LIBGCC1 =
+
+T_CFLAGS = -DDONT_HAVE_SETJMP -DSX_SUPPORT_WEAK_SYMBOLS -DSX_RTL_PRO_EPI_LOGUE
+# add -DSX_RTL_PRO_EPI_LOGUE to T_CFLAGS to use RTLized pro- and epi-logue
+
+LIBGCC2_CFLAGS=-g -O0 -DIN_GCC -D__SX__ -D__SUPERUX__
+
+LIB1ASMSRC    = sx/lib1funcs.asm
+LIB1ASMFUNCS  = __ucmpti2 __multi3

@@ -1,0 +1,4 @@
+Internally the GNU compiler uses the RTL to represent the operations that it created while parsing the language to be compiled.
+There are basically two representations for this language. One is a lisp-like language and the other one is a representation through C structures and pointers that comprise the language tree. The lisp-like language is a helpful tool to describe these C structures more easily and especially the operations that can be done with them.
+
+The GNU compiler creates these RTLs from the language source files (and more intermediate representations) and uses them in the creation of back-end output. Every back-end has a so called [machine description](MachineDescription.md) which describes how these RTLs are translated into assembly output for the target machine. The machine description also allows for entries that describe how a given RTL expression can be expanded into more RTL expressions if the target machine cannot directly handle the first one.

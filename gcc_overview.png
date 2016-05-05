@@ -1,0 +1,92 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <title>GCC: gcc_overview.png - SX Linux - Trac</title><link rel="start" href="/trac.cgi/sx-linux/wiki" /><link rel="search" href="/trac.cgi/sx-linux/search" /><link rel="help" href="/trac.cgi/sx-linux/wiki/TracGuide" /><link rel="stylesheet" href="/trac.cgi/sx-linux/chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="/trac.cgi/sx-linux/chrome/common/css/code.css" type="text/css" /><link rel="icon" href="/trac.cgi/sx-linux/chrome/common/trac.ico" type="image/x-icon" /><link rel="shortcut icon" href="/trac.cgi/sx-linux/chrome/common/trac.ico" type="image/x-icon" /><link rel="up" href="/trac.cgi/sx-linux/wiki/GCC" title="GCC" /><link rel="alternate" href="/trac.cgi/sx-linux/attachment/wiki/GCC/gcc_overview.png?format=raw" title="Original Format" type="image/png; charset=iso-8859-15" /><style type="text/css">
+@import url("/trac/css/sxlinux.css");
+
+</style>
+ <script type="text/javascript" src="/trac.cgi/sx-linux/chrome/common/js/trac.js"></script>
+</head>
+<body>
+
+
+<div id="banner">
+
+<div id="header"><a id="logo" href="http://example.org/"><img src="/trac.cgi/sx-linux/chrome/common/sxlinux_logo.png" alt="" /></a><hr /></div>
+
+<form id="search" action="/trac.cgi/sx-linux/search" method="get">
+ <div>
+  <label for="proj-search">Search:</label>
+  <input type="text" id="proj-search" name="q" size="10" accesskey="f" value="" />
+  <input type="submit" value="Search" />
+  <input type="hidden" name="wiki" value="on" />
+  <input type="hidden" name="changeset" value="on" />
+  <input type="hidden" name="ticket" value="on" />
+ </div>
+</form>
+
+
+
+<div id="metanav" class="nav"><ul><li class="first">logged in as efocht</li><li><a href="/trac.cgi/sx-linux/logout">Logout</a></li><li><a href="/trac.cgi/sx-linux/settings">Settings</a></li><li><a accesskey="6" href="/trac.cgi/sx-linux/wiki/TracGuide">Help/Guide</a></li><li class="last"><a href="/trac.cgi/sx-linux/about">About Trac</a></li></ul></div>
+</div>
+
+<div id="mainnav" class="nav"><ul><li class="active first"><a accesskey="1" href="/trac.cgi/sx-linux/wiki">Wiki</a></li><li><a accesskey="2" href="/trac.cgi/sx-linux/timeline">Timeline</a></li><li><a accesskey="3" href="/trac.cgi/sx-linux/roadmap">Roadmap</a></li><li><a href="/trac.cgi/sx-linux/browser">Browse Source</a></li><li><a href="/trac.cgi/sx-linux/report">View Tickets</a></li><li><a accesskey="7" href="/trac.cgi/sx-linux/newticket">New Ticket</a></li><li class="last"><a accesskey="4" href="/trac.cgi/sx-linux/search">Search</a></li></ul></div>
+<div id="main">
+
+
+
+
+<div id="ctxtnav" class="nav"></div>
+
+<div id="content" class="attachment">
+
+
+ <h1><a href="/trac.cgi/sx-linux/wiki/GCC">GCC</a>: gcc_overview.png</h1>
+ <table id="info" summary="Description"><tbody><tr>
+   <th scope="col">
+    File gcc_overview.png, 58.5 kB 
+    (added by mhess,  1 week ago)
+   </th></tr><tr>
+   <td class="message"><p>
+Basic Stages in GCC
+</p>
+</td>
+  </tr>
+ </tbody></table>
+ <div id="preview">
+   <div class="image-file"><img src="/trac.cgi/sx-linux/attachment/wiki/GCC/gcc_overview.png?format=raw" alt="gcc_overview.png" /></div>
+ </div>
+ <div class="buttons">
+  <form method="get" action=""><div id="delete">
+   <input type="hidden" name="action" value="delete" />
+   <input type="submit" value="Delete attachment" />
+  </div></form>
+ </div>
+
+
+</div>
+<script type="text/javascript">searchHighlight()</script>
+<div id="altlinks"><h3>Download in other formats:</h3><ul><li class="first last"><a href="/trac.cgi/sx-linux/attachment/wiki/GCC/gcc_overview.png?format=raw">Original Format</a></li></ul></div>
+
+</div>
+
+<div id="footer">
+ <hr />
+ <a id="tracpowered" href="http://trac.edgewall.org/"><img src="/trac.cgi/sx-linux/chrome/common/trac_logo_mini.png" height="30" width="107"
+   alt="Trac Powered"/></a>
+ <p class="left">
+  Powered by <a href="/trac.cgi/sx-linux/about"><strong>Trac 0.10.4</strong></a><br />
+  By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+ </p>
+ <p class="right">
+  Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
+ </p>
+</div>
+
+
+
+ </body>
+</html>
+
